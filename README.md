@@ -6,6 +6,10 @@
  
  - [数组中重复的数](https://github.com/1273545169/offer-note/blob/master/%E6%95%B0%E7%BB%84%E4%B8%AD%E9%87%8D%E5%A4%8D%E7%9A%84%E6%95%B0.md)
  
+ - [调整数组顺序使奇数位于偶数前面](https://github.com/1273545169/offer-note/blob/master/%E8%B0%83%E6%95%B4%E6%95%B0%E7%BB%84%E9%A1%BA%E5%BA%8F%E4%BD%BF%E5%A5%87%E6%95%B0%E4%BD%8D%E4%BA%8E%E5%81%B6%E6%95%B0%E5%89%8D%E9%9D%A2.md)
+ 
+ - [二进制数中一的个数](https://github.com/1273545169/offer-note/blob/master/%E4%BA%8C%E8%BF%9B%E5%88%B6%E4%B8%AD1%E7%9A%84%E4%B8%AA%E6%95%B0.md)
+ 
 
 ### 字符串
  - [替换空格](https://github.com/1273545169/offer-note/blob/master/%E6%9B%BF%E6%8D%A2%E7%A9%BA%E6%A0%BC.md)
