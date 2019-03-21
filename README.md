@@ -14,10 +14,14 @@
  
 ### 链表
  - [从尾到头打印链表](https://github.com/1273545169/offer-note/blob/master/%E4%BB%8E%E5%B0%BE%E5%88%B0%E5%A4%B4%E6%89%93%E5%8D%B0%E9%93%BE%E8%A1%A8.md)
- 
+  
+  - [合并两个有序链表](https://github.com/1273545169/offer-note/blob/master/%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8.md)
+  
  ### 二叉树
  
   - [二叉树的深度](https://github.com/1273545169/offer-note/blob/master/%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%B7%B1%E5%BA%A6.md)
+  
+  - [重建二叉树](https://github.com/1273545169/offer-note/blob/master/%E9%87%8D%E5%BB%BA%E4%BA%8C%E5%8F%89%E6%A0%91.md)
   
  ### 位运算
  
@@ -25,6 +29,9 @@
  
  - [数值的整数次方](https://github.com/1273545169/offer-note/blob/master/%E6%95%B0%E5%80%BC%E7%9A%84%E6%95%B4%E6%95%B0%E6%AC%A1%E6%96%B9.md)
  
+ ### 队列和栈
+ 
+ - [用两个栈实现队列](https://github.com/1273545169/offer-note/blob/master/%E7%94%A8%E4%B8%A4%E4%B8%AA%E6%A0%88%E5%AE%9E%E7%8E%B0%E9%98%9F%E5%88%97.md)
  
 ### 其他
 
