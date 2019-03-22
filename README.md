@@ -23,6 +23,8 @@
   
   - [重建二叉树](https://github.com/1273545169/offer-note/blob/master/%E9%87%8D%E5%BB%BA%E4%BA%8C%E5%8F%89%E6%A0%91.md)
   
+  - [二叉搜索树的后序遍历序列](https://github.com/1273545169/offer-note/blob/master/%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86%E5%BA%8F%E5%88%97.md)
+  
  ### 位运算
  
  - [二进制数中一的个数](https://github.com/1273545169/offer-note/blob/master/%E4%BA%8C%E8%BF%9B%E5%88%B6%E4%B8%AD1%E7%9A%84%E4%B8%AA%E6%95%B0.md)
