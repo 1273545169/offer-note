@@ -17,6 +17,10 @@
   
   - [合并两个有序链表](https://github.com/1273545169/offer-note/blob/master/%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8.md)
   
+ - [删除链表中的重复节点](https://github.com/1273545169/offer-note/blob/master/%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E4%B8%AD%E9%87%8D%E5%A4%8D%E7%9A%84%E8%8A%82%E7%82%B9.md)
+ 
+ - [链表中倒数第k个节点](https://github.com/1273545169/offer-note/blob/master/%E9%93%BE%E8%A1%A8%E4%B8%AD%E5%80%92%E6%95%B0%E7%AC%ACk%E4%B8%AA%E8%8A%82%E7%82%B9.md)
+  
  ### 二叉树
  
   - [二叉树的深度](https://github.com/1273545169/offer-note/blob/master/%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%B7%B1%E5%BA%A6.md)
@@ -26,6 +30,7 @@
   - [重建二叉树](https://github.com/1273545169/offer-note/blob/master/%E9%87%8D%E5%BB%BA%E4%BA%8C%E5%8F%89%E6%A0%91.md)
   
   - [二叉搜索树的后序遍历序列](https://github.com/1273545169/offer-note/blob/master/%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86%E5%BA%8F%E5%88%97.md)
+     
   
  ### 位运算
  
@@ -39,7 +44,6 @@
  
  - [栈的压入、弹出序列](https://github.com/1273545169/offer-note/blob/master/%E6%A0%88%E7%9A%84%E5%8E%8B%E5%85%A5%E3%80%81%E5%BC%B9%E5%87%BA%E5%BA%8F%E5%88%97.md)
  
- - [删除链表中的重复节点](https://github.com/1273545169/offer-note/blob/master/%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E4%B8%AD%E9%87%8D%E5%A4%8D%E7%9A%84%E8%8A%82%E7%82%B9.md)
  
 ### 其他
 
