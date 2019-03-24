@@ -18,7 +18,7 @@
  
  - [旋转数组中最小数字](https://github.com/1273545169/offer-note/blob/master/%E6%97%8B%E8%BD%AC%E6%95%B0%E7%BB%84%E4%B8%AD%E6%9C%80%E5%B0%8F%E6%95%B0%E5%AD%97.md)
   
- - [数字在排序数组中出现的次数]()
+ - [数字在排序数组中出现的次数](https://github.com/1273545169/offer-note/blob/master/%E6%95%B0%E5%AD%97%E5%9C%A8%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E5%87%BA%E7%8E%B0%E7%9A%84%E6%AC%A1%E6%95%B0.md)
  
 ### 规律题
   
