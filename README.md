@@ -1,10 +1,6 @@
 ## 目录
 
 ### 数组
-
- - [旋转数组中最小数字](https://github.com/1273545169/offer-note/blob/master/%E6%97%8B%E8%BD%AC%E6%95%B0%E7%BB%84%E4%B8%AD%E6%9C%80%E5%B0%8F%E6%95%B0%E5%AD%97.md)
- 
- - [数组中重复的数](https://github.com/1273545169/offer-note/blob/master/%E6%95%B0%E7%BB%84%E4%B8%AD%E9%87%8D%E5%A4%8D%E7%9A%84%E6%95%B0.md)
  
  - [调整数组顺序使奇数位于偶数前面](https://github.com/1273545169/offer-note/blob/master/%E8%B0%83%E6%95%B4%E6%95%B0%E7%BB%84%E9%A1%BA%E5%BA%8F%E4%BD%BF%E5%A5%87%E6%95%B0%E4%BD%8D%E4%BA%8E%E5%81%B6%E6%95%B0%E5%89%8D%E9%9D%A2.md)
  
@@ -13,6 +9,14 @@
   - [最小的k个数](https://github.com/1273545169/offer-note/blob/master/%E6%9C%80%E5%B0%8F%E7%9A%84K%E4%B8%AA%E6%95%B0.md)
   
  - [把数组排成最小的数](https://github.com/1273545169/offer-note/blob/master/%E6%8A%8A%E6%95%B0%E7%BB%84%E6%8E%92%E6%88%90%E6%9C%80%E5%B0%8F%E7%9A%84%E6%95%B0.md)
+ 
+ --------------------
+ 
+ - [数组中重复的数](https://github.com/1273545169/offer-note/blob/master/%E6%95%B0%E7%BB%84%E4%B8%AD%E9%87%8D%E5%A4%8D%E7%9A%84%E6%95%B0.md)
+ 
+ - [旋转数组中最小数字](https://github.com/1273545169/offer-note/blob/master/%E6%97%8B%E8%BD%AC%E6%95%B0%E7%BB%84%E4%B8%AD%E6%9C%80%E5%B0%8F%E6%95%B0%E5%AD%97.md)
+  
+ - [数字在排序数组中出现的次数]()
  
 ### 规律题
   
