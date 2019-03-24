@@ -1,5 +1,7 @@
 ### 题目描述
 
+[牛客链接](https://www.nowcoder.com/practice/6a296eb82cf844ca8539b57c23e6e9bf?tpId=13&tqId=11182&tPage=2&rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
+
 输入n个整数，找出其中最小的K个数。例如输入4,5,1,6,2,7,3,8这8个数字，则最小的4个数字是1,2,3,4,。
 
 ### 思路解析
@@ -62,7 +64,7 @@ class Solution:
             if tinput[0] > tinput[i]:
                 tinput[0] = tinput[i]
                 self.heapify(tinput, 0, k)
-        return tinput[:k]
+        return self.heapSort(tinput[:k])
 
     def heapInsert(self, tinput, index):
         while index > 0 and tinput[index] > tinput[(index - 1) // 2]:
@@ -83,6 +85,14 @@ class Solution:
             tinput[largest], tinput[index] = tinput[index], tinput[largest]
             index = largest
             left = index * 2 + 1
+        return tinput
+
+    def heapSort(self, tinput):
+        heapsize = len(tinput)
+        while heapsize > 1:
+            tinput[0], tinput[heapsize - 1] = tinput[heapsize - 1], tinput[0]
+            heapsize -= 1
+            self.heapify(tinput, 0, heapsize)
         return tinput
 
 ```
