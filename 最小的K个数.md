@@ -15,7 +15,7 @@ class Solution:
         return sorted(tinput)[:k]
 
 ```
-运行一直超时
+partiton，运行一直超时
 ```python
 class Solution:
     def GetLeastNumbers_Solution(self, tinput, k):
@@ -45,5 +45,44 @@ class Solution:
         array[left] = pivot
 
         return left
+
+```
+最大堆
+
+```python
+class Solution:
+    def GetLeastNumbers_Solution(self, tinput, k):
+        if not tinput or k <= 0 or k > len(tinput):
+            return []
+        # 数组前k个数构成一个最大堆
+        for i in range(k):
+            self.heapInsert(tinput, i)
+        # 数组后面的数与堆顶比较，小则替换堆顶，再调整前k个数组成新的最大堆
+        for i in range(k, len(tinput)):
+            if tinput[0] > tinput[i]:
+                tinput[0] = tinput[i]
+                self.heapify(tinput, 0, k)
+        return tinput[:k]
+
+    def heapInsert(self, tinput, index):
+        while index > 0 and tinput[index] > tinput[(index - 1) // 2]:
+            tinput[index], tinput[(index - 1) // 2] = tinput[(index - 1) // 2], tinput[index]
+            index = (index - 1) // 2
+
+    def heapify(self, tinput, index, heapsize):
+        left = index * 2 + 1
+        while left < heapsize:
+            right = left + 1
+            if right < heapsize:
+                largest = right if tinput[right] > tinput[left] else left
+            else:
+                largest = left
+            if tinput[index] > tinput[largest]:
+                break
+
+            tinput[largest], tinput[index] = tinput[index], tinput[largest]
+            index = largest
+            left = index * 2 + 1
+        return tinput
 
 ```
