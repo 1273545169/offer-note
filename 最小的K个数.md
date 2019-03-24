@@ -96,3 +96,35 @@ class Solution:
         return tinput
 
 ```
+使用Python的`heapq`模块实现
+
+heapq为最小堆，为了实现最大堆，只需要将在构建时存为负值即可。
+
+例如：heapq.heappush(heap, -tinput[i])
+
+```python
+
+import heapq
+class Solution:
+    def GetLeastNumbers_Solution(self, tinput, k):
+        if not tinput or k <= 0 or k > len(tinput):
+            return []
+        heap = []
+        # 数组前k个数构成一个最大堆
+        for i in range(k):
+            heapq.heappush(heap, -tinput[i])
+        # 数组后面的数与堆顶比较，小则替换堆顶，再调整前k个数组成新的最大堆
+        for i in range(k, len(tinput)):
+            if heap[0] < -tinput[i]:
+                heap[0] = -tinput[i]
+                heapq.heapify(heap)
+        return self.heapSort(list(map(abs, heap)))
+
+    # 堆排序
+    def heapSort(self, array):
+        res = []
+        for i in range(len(array)):
+            heapq.heappush(res, array[i])
+        return [heapq.heappop(res) for i in range(len(res))]
+
+```
