@@ -67,6 +67,8 @@
  
  - [数值的整数次方](https://github.com/1273545169/offer-note/blob/master/%E6%95%B0%E5%80%BC%E7%9A%84%E6%95%B4%E6%95%B0%E6%AC%A1%E6%96%B9.md)
  
+ - [数组中只出现一次的数字](https://github.com/1273545169/offer-note/blob/master/%E6%95%B0%E7%BB%84%E4%B8%AD%E5%8F%AA%E5%87%BA%E7%8E%B0%E4%B8%80%E6%AC%A1%E7%9A%84%E6%95%B0%E5%AD%97.md)
+ 
  ### 队列和栈
  
  - [用两个栈实现队列](https://github.com/1273545169/offer-note/blob/master/%E7%94%A8%E4%B8%A4%E4%B8%AA%E6%A0%88%E5%AE%9E%E7%8E%B0%E9%98%9F%E5%88%97.md)
