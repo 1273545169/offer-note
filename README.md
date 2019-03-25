@@ -30,7 +30,7 @@
   
 ### 字符串
 
- - [字符串的排列]()
+ - [字符串的排列](https://github.com/1273545169/offer-note/blob/master/%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E6%8E%92%E5%88%97.md)
  
  - [替换空格](https://github.com/1273545169/offer-note/blob/master/%E6%9B%BF%E6%8D%A2%E7%A9%BA%E6%A0%BC.md)
  
