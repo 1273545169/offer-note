@@ -10,6 +10,8 @@
   
   - [最大的k个数](https://github.com/1273545169/offer-note/blob/master/%E6%9C%80%E5%A4%A7%E7%9A%84k%E4%B8%AA%E6%95%B0.md)
   
+  - [数据流中的中位数](https://github.com/1273545169/offer-note/blob/master/%E6%95%B0%E6%8D%AE%E6%B5%81%E4%B8%AD%E7%9A%84%E4%B8%AD%E4%BD%8D%E6%95%B0.md)
+  
  - [把数组排成最小的数](https://github.com/1273545169/offer-note/blob/master/%E6%8A%8A%E6%95%B0%E7%BB%84%E6%8E%92%E6%88%90%E6%9C%80%E5%B0%8F%E7%9A%84%E6%95%B0.md)
  
  --------------------
