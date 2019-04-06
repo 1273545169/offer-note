@@ -24,7 +24,7 @@
  
 ### 规律题
   
-   - [杨辉三角](https://github.com/1273545169/offer-note/blob/master/%E6%9D%A8%E8%BE%89%E4%B8%89%E8%A7%92%E5%92%8C%E6%96%90%E6%B3%A2%E6%8B%89%E5%A5%91%E6%95%B0%E5%88%97.md)
+   - [杨辉三角](https://github.com/1273545169/offer-note/blob/master/%E6%9D%A8%E8%BE%89%E4%B8%89%E8%A7%92.md)
   
   - [整数中1出现的次数](https://github.com/1273545169/offer-note/blob/master/%E6%95%B4%E6%95%B0%E4%B8%AD1%E5%87%BA%E7%8E%B0%E7%9A%84%E6%AC%A1%E6%95%B0.md)
   
