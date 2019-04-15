@@ -90,6 +90,8 @@
  
  - [栈的压入、弹出序列](https://github.com/1273545169/offer-note/blob/master/%E6%A0%88%E7%9A%84%E5%8E%8B%E5%85%A5%E3%80%81%E5%BC%B9%E5%87%BA%E5%BA%8F%E5%88%97.md)
  
+ - [合法的出栈序列](https://github.com/1273545169/offer-note/blob/master/%E5%90%88%E6%B3%95%E7%9A%84%E5%87%BA%E6%A0%88%E5%BA%8F%E5%88%97.md)
+ 
  
 ### 动态规划
  
