@@ -19,7 +19,8 @@ class Solution:
             heapq.heappush(heap, tinput[i])
         # 数组后面的数与堆顶比较，大则替换堆顶，再调整前k个数组成新的最小堆
         for i in range(k, len(tinput)):
-            heapq.heapreplace(heap, tinput[i])
+            if heap[0] < tinput[i]:
+                heapq.heapreplace(heap, tinput[i])
         return self.heapSort(heap)[::-1]
 
     # 堆排序
