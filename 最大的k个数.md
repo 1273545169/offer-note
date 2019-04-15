@@ -1,6 +1,8 @@
 ### 题目描述
 
-输入n个整数，找出其中最小的K个数。k个数排好序
+[leetcode 215. 数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/submissions/)升级版
+
+输入n个整数，找出其中最大的K个数。k个数排好序
 
 ### 思路解析
 
