@@ -21,6 +21,7 @@ class Solution:
             p1 = p1.next
             if not p1:
                 return None
+                
         # p1和p2同时走，p1走到最后一个位置时，p2正好在倒数第k个位置，返回p2指的节点
         while p1.next:
             p1 = p1.next
@@ -28,19 +29,34 @@ class Solution:
         return p2
 
 ```
-万能的list结构，时间稍长一点
+
+[19. 删除链表的倒数第 N 个结点](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/)
 
 ```python
-
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
 class Solution:
-    def FindKthToTail(self, head, k):
-        if k <= 0:
-            return None
-        res = []
-        while head:
-            res.append(head)
-            head = head.next
+    def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
+        # 双指针解法
+        p1, p2 = head, head
+        # p2先走k步，当p2此时为空指针时表示n==链表长度，删除头节点
+        for i in range(n):
+            p2 = p2.next
+            if not p2:
+                return head.next
+        
+        # 接着p2到达最后一个节点时，p1到达需删除节点的前一个节点
+        while p2.next:
+            p1 = p1.next
+            p2 = p2.next
 
-        return res[-k] if len(res) >= k else None
+        p1.next = p1.next.next
+
+        return head
+
+
 
 ```
