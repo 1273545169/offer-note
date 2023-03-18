@@ -30,7 +30,7 @@ class Solution:
 
 ```
 
-[19. 删除链表的倒数第 N 个结点](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/)
+[leetcode 19. 删除链表的倒数第 N 个结点](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/)
 
 ```python
 # Definition for singly-linked list.
@@ -42,7 +42,7 @@ class Solution:
     def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
         # 双指针解法
         p1, p2 = head, head
-        # p2先走k步，当p2此时为空指针时表示n==链表长度，删除头节点
+        # p2先走k步，当p2此时为空指针时表示n=链表长度，删除头节点
         for i in range(n):
             p2 = p2.next
             if not p2:
